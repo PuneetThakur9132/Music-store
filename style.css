@@ -1,0 +1,138 @@
+body {
+  font-family: "Abel", sans-serif;
+}
+
+/* all sections */
+
+#firstpart {
+  display: flex;
+  align-items: center;
+  background-image: url("https://github.com/bradtraversy/mytunes_landing/blob/master/dist/img/showcase.jpg?raw=true");
+  /* height:200px; */
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  color: white;
+}
+#secwindow {
+  display: flex;
+  align-items: center;
+  background-color: #252529;
+  color: white;
+}
+#showcase {
+  font-weight: bolder;
+  background-color: #e9ecef;
+}
+#info {
+  font-weight: 700;
+  padding: 10rem 0;
+  display: flex;
+  align-items: center;
+  background-image: url("https://github.com/bradtraversy/mytunes_landing/blob/master/dist/img/section-bg.jpg?raw=true");
+  background-size: cover;
+  background-position: bottom;
+  width: 100%;
+  height: 75vh;
+  color: white;
+}
+#giftcard {
+  background-color: #e9ecef;
+}
+/* different classes */
+#giftcard .arrow {
+  font-weight: 700;
+}
+
+#giftcard .highlight {
+  border-bottom: 1px solid #403d39;
+  padding-bottom: 1rem;
+}
+
+/* buttons */
+#secwindow .button1 {
+  background-color: #e5383b;
+  border: 3px solid #e5383b;
+  color: white;
+  padding: 1rem;
+}
+#secwindow .button1:hover {
+  background-color: #e71d36;
+  border: 3px solid #e71d36;
+}
+#showcase .button2 {
+  background-color: #003459;
+  border: 3px solid #003459;
+  padding: 1rem;
+  color: white;
+}
+#showcase .button2:hover {
+  background-color: #03045e;
+  border: 3px solid #03045e;
+}
+/* footer */
+#foottag {
+  background-color: #252529;
+  color: white;
+  /* width: 100%; */
+  /* height: 48vh; */
+  /* padding-top: 50px; */
+}
+#foottag h3 {
+  font-size: 20px;
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #444;
+}
+#foottag ul {
+  text-align: left;
+  margin-top: 35px;
+  color: #ccc5b9;
+}
+#foottag .footer-bottom {
+  background-color: #333;
+  padding: 1rem;
+}
+
+/* navbar */
+.navbar a {
+  margin: auto 1rem;
+}
+.navbar a:hover {
+  background-color: #6c757d;
+  /* height: 100px; */
+}
+
+/* making responsive */
+
+@media screen and (max-width: 780px) {
+  footer .foot1 {
+    display: none;
+    height: auto;
+  }
+  #foottag .footer-bottom {
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #firstpart p {
+    display: none;
+  }
+  #firstpart h1 {
+    font-size: 3rem;
+  }
+
+  #firstpart h2 {
+    font-size: 1.5rem;
+  }
+  #firstpart {
+    height: 50vh;
+    font-weight: 700;
+  }
+  #giftcard {
+    padding: 2rem;
+  }
+}
